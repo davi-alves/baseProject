@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./base.component.css']
 })
 export class AppBaseComponent {
-  title = 'project-base';
+  title = 'Academia Angular';
 }
