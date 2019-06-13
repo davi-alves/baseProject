@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urls: {
+    randomImg: 'https://api.thecatapi.com/v1/images/search?size=full',
+    listUsers: 'https://reqres.in/api/users?per_page=10',
+    singleUser: 'https://reqres.in/api/users/'
+  }
 };
 
 /*
