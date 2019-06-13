@@ -6,6 +6,7 @@ import { AppBaseComponent } from './base/base.component';
 import { AppCardComponent } from './card/app-card.component';
 import { AppListaSonoComponent } from './lista-sono/app-lista-sono.component';
 import { TextComponent } from './text/text.component';
+import { AccessibilityComponent } from './accessibility/accessibility.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { TextComponent } from './text/text.component';
     AppCardComponent,
     AppListaSonoComponent,
     TextComponent,
+    AccessibilityComponent,
   ],
   imports: [
     BrowserModule,

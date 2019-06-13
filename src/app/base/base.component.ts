@@ -9,7 +9,7 @@ export class AppBaseComponent {
   title = 'Academia Angular';
   color;
 
-  selectColor(event) {
-    this.color = event.target.value;
+  selectColor(color) {
+    this.color = color;
   }
 }
