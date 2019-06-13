@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppBaseComponent {
   title = 'Academia Angular';
+  color;
+
+  selectColor(event) {
+    this.color = event.target.value;
+  }
 }

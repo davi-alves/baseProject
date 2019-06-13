@@ -2,4 +2,13 @@
   <h1>Bem-vindas! {{title}}</h1>
 </div>
 
-<app-text [title]="'Injeção de Dependências'"></app-text>
+<input
+  type="color"
+  (change)="selectColor($event)"
+  id="color"
+>
+
+<app-text
+  [title]="'Injeção de Dependências'"
+  [color]="color"
+></app-text>
